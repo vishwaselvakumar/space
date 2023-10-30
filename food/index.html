@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="vh-100">
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+      <!--logo-->
+      <a class="navbar-brand fs-2" href="#">Space.er</a>
+       <!--toggle-->
+      <button class="navbar-toggler shadow-none border-0" type="button"
+       data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" 
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--sidebar-->
+
+     
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Space.er</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!--sidebar body-->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+
+
+<!--login singup-->
+<div class="d-flex flex-lg-row flex-column align-items-center gap-3">
+  <a href="#login" class="text-white">Login</a>
+  <a href="#singup" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #f94ca4;">Sing Up</a>
+  
+</div>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--carisol-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner w-50 m-auto">
+      <div class="carousel-item active">
+        <img src="daniel-olah-gEta6dbzFy0-unsplash (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="nasa-2W-QWAC0mzI-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="nasa-vhSz50AaFAs-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="daniel-olah-04RhrsalOmU-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="daniel-olah-gEta6dbzFy0-unsplash (1).jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Third slide label</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+    </div>
+  </div>
+</div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
